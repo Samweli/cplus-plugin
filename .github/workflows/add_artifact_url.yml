@@ -67,6 +67,7 @@ jobs:
           ARTIFACT_URL: "${{ github.server_url }}/${{ github.repository }}/suites/${{ env.SUITE_ID }}/artifacts/${{ env.ARTIFACT_ID }}"
         run: |
           echo $ARTIFACT_URL > artifact_url.txt
+          echo "ARTIFACT_URL=$ARTIFACT_URL" >> $GITHUB_ENV
 
       - name: Upload the url text file artifact
         uses: actions/upload-artifact@v3
