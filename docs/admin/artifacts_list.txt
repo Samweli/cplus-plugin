@@ -2,3 +2,4 @@ main cplus_plugin_main_0cba -
 main cplus_plugin_main_f9ce - https://github.com/Samweli/cplus-plugin/suites/14709795537/artifacts/835338644
 cplus_plugin_main_ce73 - https://github.com/Samweli/cplus-plugin/suites/15514596369/artifacts/885815703
 cplus_plugin_main_f52b - https://github.com/Samweli/cplus-plugin/suites/15548318453/artifacts/887273928
+cplus_plugin_main_3254 - https://github.com/Samweli/cplus-plugin/suites/15548683313/artifacts/887291039
