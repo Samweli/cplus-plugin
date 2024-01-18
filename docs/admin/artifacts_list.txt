@@ -13,3 +13,4 @@ cplus_plugin_main_eb56 - https://github.com/Samweli/cplus-plugin/suites/19905643
 cplus_plugin_main_7149 - https://github.com/Samweli/cplus-plugin/suites/19905805967/artifacts/1178065425
 cplus_plugin_main_c8ac - https://github.com/Samweli/cplus-plugin/suites/19906011257/artifacts/1178079978
 cplus_plugin_main_b709 - https://github.com/Samweli/cplus-plugin/suites/19906327996/artifacts/1178103330
+cplus_plugin_main_6668 - https://github.com/Samweli/cplus-plugin/suites/19908694817/artifacts/1178281125
