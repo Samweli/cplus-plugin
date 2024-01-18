@@ -7,3 +7,4 @@ cplus_plugin_main_620e - https://github.com/Samweli/cplus-plugin/suites/15548835
 cplus_plugin_main_35ea - https://github.com/Samweli/cplus-plugin/suites/15549090765/artifacts/887310925
 cplus_plugin_main_4642 - https://github.com/Samweli/cplus-plugin/suites/15549566105/artifacts/887334348
 cplus_plugin_main_126b - https://github.com/Samweli/cplus-plugin/suites/19904145807/artifacts/1177946227
+cplus_plugin_main_6c28 - https://github.com/Samweli/cplus-plugin/suites/19905002090/artifacts/1178010405
