@@ -151,6 +151,30 @@ on the `dist` folder under the plugin root folder.
 python admin.py generate-zip
 ```
 
+##### Deploy plugin version into staging
+
+```yaml
+
+git remote update upstream
+
+git branch -D develop
+
+git checkout -b develop
+
+```
+
+
+```shell
+
+git tag -a {tagname}
+
+git push upstream develop
+
+git push upstream {tagname}
+```
+
+
+
 ### 🔧 Testing
 
 The plugin currently support running tests on Linux environment only, to run plugin tests use the below script
