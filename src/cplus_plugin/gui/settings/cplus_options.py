@@ -36,6 +36,7 @@ from ...definitions.defaults import (
     OPTIONS_TITLE,
     ICON_PATH,
     DEFAULT_LOGO_PATH,
+    GENERAL_OPTIONS_TITLE
 )
 from ...utils import FileUtils, tr
 
@@ -309,8 +310,7 @@ class CplusOptionsFactory(QgsOptionsWidgetFactory):
         """QGIS CPLUS Plugin Settings factory."""
         super().__init__()
 
-        self.setTitle(OPTIONS_TITLE)
-        self.setKey(CPLUS_OPTIONS_KEY)
+        self.setTitle(GENERAL_OPTIONS_TITLE)
 
     def icon(self) -> QIcon:
         """Returns the icon which will be used for the CPLUS options tab.
@@ -332,3 +332,15 @@ class CplusOptionsFactory(QgsOptionsWidgetFactory):
         """
 
         return CplusSettings(parent)
+
+    def path(self) -> typing.List[str]:
+        """
+        Returns the path to place the widget page at.
+
+        This instructs the registry to place the log options tab under the
+        main CPLUS settings.
+
+        :returns: Path name of the main CPLUS settings.
+        :rtype: list
+        """
+        return [OPTIONS_TITLE]

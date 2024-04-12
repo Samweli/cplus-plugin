@@ -22,7 +22,7 @@ from ...conf import (
     Settings,
 )
 from ...definitions.constants import CPLUS_OPTIONS_KEY, LOG_OPTIONS_KEY
-from ...definitions.defaults import LOG_OPTIONS_TITLE, LOG_SETTINGS_ICON_PATH
+from ...definitions.defaults import LOG_OPTIONS_TITLE, LOG_SETTINGS_ICON_PATH, OPTIONS_TITLE
 from ...utils import FileUtils, tr
 
 
@@ -50,7 +50,6 @@ class LogOptionsFactory(QgsOptionsWidgetFactory):
         super().__init__()
 
         self.setTitle(LOG_OPTIONS_TITLE)
-        self.setKey(LOG_OPTIONS_KEY)
 
     def icon(self) -> QIcon:
         """Returns the icon which will be used for the log settings item.
@@ -70,7 +69,7 @@ class LogOptionsFactory(QgsOptionsWidgetFactory):
         :returns: Path name of the main CPLUS settings.
         :rtype: list
         """
-        return [CPLUS_OPTIONS_KEY]
+        return [OPTIONS_TITLE]
 
     def createWidget(self, parent: QWidget) -> LogSettingsWidget:
         """Creates a widget for defining log settings.

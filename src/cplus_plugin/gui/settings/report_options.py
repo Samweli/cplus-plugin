@@ -26,6 +26,7 @@ from ...definitions.defaults import (
     DEFAULT_LOGO_PATH,
     REPORT_OPTIONS_TITLE,
     REPORT_SETTINGS_ICON_PATH,
+    OPTIONS_TITLE
 )
 from ...utils import tr
 
@@ -252,7 +253,6 @@ class ReportOptionsFactory(QgsOptionsWidgetFactory):
         super().__init__()
 
         self.setTitle(tr(REPORT_OPTIONS_TITLE))
-        self.setKey(REPORTS_OPTIONS_KEY)
 
     def icon(self) -> QIcon:
         """Returns the icon which will be used for the report settings item.
@@ -272,7 +272,7 @@ class ReportOptionsFactory(QgsOptionsWidgetFactory):
         :returns: Path name of the main CPLUS settings.
         :rtype: list
         """
-        return [CPLUS_OPTIONS_KEY]
+        return [OPTIONS_TITLE]
 
     def createWidget(self, parent: QWidget) -> ReportSettingsWidget:
         """Creates a widget for report settings.
