@@ -101,7 +101,9 @@ jobs:
 
           Plugin zip package for the changes in this PR has been successfully built!.
 
-          Download the plugin zip file from here ${{ env.ARTIFACT_URL }}
+          Download the plugin zip file from here ${{ env.ARTIFACT_URL }}.
+          
+          Made with the gh api.
 
           [badge]: https://img.shields.io/badge/package_build-success-green"
 
