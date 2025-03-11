@@ -104,6 +104,8 @@ jobs:
           Download the plugin zip file from here ${{ env.ARTIFACT_URL }}.
           
           Made with the gh api.
+          
+          Testing...
 
           [badge]: https://img.shields.io/badge/package_build-success-green"
 
